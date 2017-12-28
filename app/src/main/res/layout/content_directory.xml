@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/content_directory"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menu_background_colour"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.boes.peretz.frumtoronto.DirectoryActivity"
+    tools:showIn="@layout/activity_directory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+    <Button
+        android:id="@+id/button14"
+        android:text="@string/home_and_garden_button_text"
+        android:textAllCaps="false"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:onClick="showHomeAndGardenWebpage"/>
+
+    <Button
+        android:id="@+id/button15"
+        android:text="@string/advanced_search_button_text"
+        android:textAllCaps="false"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:onClick="showAdvancedSearchWebpage"/>
+
+    <Button
+        android:id="@+id/button17"
+        android:text="@string/business_services_button_text"
+        android:textAllCaps="false"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:onClick="showBusinessServicesWebpage"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+    <Button
+        android:id="@+id/button21"
+        android:text="@string/financial_services_button_text"
+        android:textAllCaps="false"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:onClick="showFinancialServicesWebpage"/>
+
+    <Button
+        android:id="@+id/button24"
+        android:text="@string/simchas_button_text"
+        android:textAllCaps="false"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:onClick="showSimchasWebpage"/>
+
+    <Button
+        android:id="@+id/button25"
+        android:text="@string/sport_and_leisure_button_text"
+        android:textAllCaps="false"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:onClick="showSportAndLeisureWebpage"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button26"
+        android:text="@string/transport_and_auto_button_text"
+        android:textAllCaps="false"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:onClick="showTransportAndAutoWebpage"/>
+
+    <Button
+        android:id="@+id/button23"
+        android:text="@string/shopping_button_text"
+        android:textAllCaps="false"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:onClick="showShoppingWebpage"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:text="@string/business_directory_button_text"
+        android:textAllCaps="false"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:onClick="showBusinessDirectoryWebpage"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button19"
+        android:text="@string/clothing_and_accessories_button_text"
+        android:textAllCaps="false"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:onClick="showClothingAndAccessoriesWebpage"/>
+
+    <Button
+        android:id="@+id/button20"
+        android:text="@string/property_and_accommodations_button_text"
+        android:textAllCaps="false"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="showPropertyAndAccommodationsWebpage"/>
+
+    <Button
+        android:id="@+id/button10"
+        android:text="@string/government_and_institutions_button_text"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showGovernmentAndInstitutionsWebpage"/>
+
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button11"
+        android:text="@string/register_your_business_button_text"
+        android:textAllCaps="false"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:onClick="showRegisterYourBusinessWebpage"/>
+
+    <Button
+        android:id="@+id/button13"
+        android:text="@string/directory_rates_button_text"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showDirectoryRatesWebpage"/>
+
+    <Button
+        android:id="@+id/button12"
+        android:text="@string/heath_and_beauty_button_text"
+        android:textAllCaps="false"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:onClick="showHeathAndBeautyWebpage"/>
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button16"
+                android:text="@string/jewish_community_services_button_text"
+                android:textAllCaps="false"
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:onClick="showJewishCommunityServicesWebpage"/>
+
+            <Button
+                android:id="@+id/button18"
+                android:text="@string/kosher_foods_activity"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="showKosherFoodsWebpage"/>
+
+            <Button
+                android:id="@+id/button22"
+                android:text="@string/services_button_text"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="showServicesWebpage"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

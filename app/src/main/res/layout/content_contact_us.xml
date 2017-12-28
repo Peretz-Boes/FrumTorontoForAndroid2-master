@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/content_contact_us"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menu_background_colour"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.boes.peretz.frumtoronto.ContactUsActivity"
+    tools:showIn="@layout/activity_contact_us">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/button44"
+        android:text="@string/contact_us_button_text"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="13dp"
+        android:onClick="showContactInformation"/>
+
+    <Button
+        android:id="@+id/button45"
+        android:text="@string/register_your_business_button_text"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button44"
+        android:layout_alignLeft="@+id/button44"
+        android:layout_alignStart="@+id/button44"
+        android:layout_marginTop="26dp"/>
+
+    <Button
+        android:id="@+id/button46"
+        android:text="@string/advertising_rates_button_text"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button45"
+        android:layout_alignLeft="@+id/button45"
+        android:layout_alignStart="@+id/button45"
+        android:layout_marginTop="17dp"
+        android:onClick="showAdvertisingRates"/>
+
+    <Button
+        android:id="@+id/button47"
+        android:text="@string/frequently_asked_questions_button_text"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button46"
+        android:layout_alignLeft="@+id/button46"
+        android:layout_alignStart="@+id/button46"
+        android:layout_marginTop="38dp"
+        android:onClick="showFrequentlyAskedQuestions"/>
+
+    <Button
+        android:id="@+id/button48"
+        android:text="@string/about_us_button_text"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button47"
+        android:layout_alignLeft="@+id/button47"
+        android:layout_alignStart="@+id/button47"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="28dp"
+        android:onClick="showAboutFrumToronto"/>
+    </RelativeLayout>
+</ScrollView>

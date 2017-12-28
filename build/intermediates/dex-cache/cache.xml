@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_10710f54ac66a198c916078794794ef87f993aa3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_6fed3060dba12d3b94d6c3a5670d4786dfcaad9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.1_08c20cc4239c736ab90e25ab2b95a44b2470af75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.1_eed62987ea82a6072bec6ce52dd533ed1b3cacc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_4cca7ced882e93a4b558f93286da64752dde990e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2908617f6d5a4d0b637e049dddddf01d72ea8771">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\instant-run_5503bebb09fa06aeae491ce951bfd3af5c571fed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_86f469d80adb1c74380386a1805cc252b76c2e8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="52b63e831c3899130b8eac243f731c9d7a07d36e">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_b56a3a66178479113ec06c2ed7834381e98adb98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.3.1_4f2ddd9c90042871c85b65b1dacffe06e2aa87cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_5b54af88ff007b681e32b3cc878290939cfb09f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_c0deedd2e1b76732dbb5844722c12fa34b4f219f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_4fb436530fe622387c24f22ba3f1653057ab5e65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_6708c400b2b5647a8b4ec6d1c783757eb7d1eb34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.11.2\e3eeb8a0b4ce1db246059a41e353cd7413dad226\jsoup-1.11.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e3eeb8a0b4ce1db246059a41e353cd7413dad226">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\jsoup-1.11.2_7e6ef536d0f0198f2b872bd7fa67ca7aeb2cbe5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_05b6866f514bad70e8437848cb5bae19dec24e07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Peretz\AndroidStudioProjects\FrumToronto\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_b3a6af8f1063dbec1843570b089e1fab9f6c1bbf.jar" />
+    </item>
+
+</items>
