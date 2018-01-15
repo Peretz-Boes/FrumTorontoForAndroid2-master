@@ -43,12 +43,8 @@ public class ShulsAndTefillosActivity extends AppCompatActivity {
     }
 
     public void showShulListings(View view) {
-        Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("http://www.frumtoronto.com/DirectoryListing.asp?CategoryID=234"));
-        if (intent.resolveActivity(getPackageManager())!=null){
-            startActivity(intent);
-        }else {
-            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
-        }
+        Intent intent = new Intent(ShulsAndTefillosActivity.this, ShulListingsActivity.class);
+        startActivity(intent);
     }
 
     public void showMinchaListings(View view) {
@@ -75,12 +71,8 @@ public class ShulsAndTefillosActivity extends AppCompatActivity {
     }
 
     public void showTehillimList(View view){
-        Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("http://www.frumtoronto.com/Main.asp?Menu_Tag=daveninglist&BlogCategoryID=73"));
-        if (intent.resolveActivity(getPackageManager())!=null){
-            startActivity(intent);
-        }else {
-            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
-        }
+        Intent intent=new Intent(ShulsAndTefillosActivity.this,TehillimListActivity.class);
+        startActivity(intent);
     }
 
 }

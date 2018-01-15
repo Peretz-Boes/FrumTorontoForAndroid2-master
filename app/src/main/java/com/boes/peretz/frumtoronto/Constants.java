@@ -1,7 +1,7 @@
 package com.boes.peretz.frumtoronto;
 
 /**
- * Created by alanrabinowitz on 2017-12-20.
+ * Created by alanrabinowitz on 2018-01-02.
  */
 
 public class Constants {
@@ -11,7 +11,7 @@ public class Constants {
     public static final int STATUS_UNAUTHORIZED=401;
     public static final String APP_KEY="950d9bf3677f46368febe9e45ea7f845";
     public static final String APP_SECRET="eb7b16f26175497fb8e40ebbf7942b2e";
-    public static final String END_POINT ="http://mobileapps.x10host.com/home/mobilea9/public_html";
+    public static final String END_POINT ="http://beteljuiceproductions.com";
     public static final String LOGIN_URL=END_POINT+"/login.php";
     public static final String REGISTRATION_URL= END_POINT +"/signup.php";
     public static final String INFO_URL=END_POINT+"/info.php";

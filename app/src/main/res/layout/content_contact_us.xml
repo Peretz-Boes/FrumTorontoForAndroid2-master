@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<RelativeLayout
     android:id="@+id/content_contact_us"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -14,10 +14,6 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.boes.peretz.frumtoronto.ContactUsActivity"
     tools:showIn="@layout/activity_contact_us">
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
     <Button
         android:id="@+id/button44"
@@ -81,5 +77,4 @@
         android:layout_marginStart="14dp"
         android:layout_marginTop="28dp"
         android:onClick="showAboutFrumToronto"/>
-    </RelativeLayout>
-</ScrollView>
+</RelativeLayout>

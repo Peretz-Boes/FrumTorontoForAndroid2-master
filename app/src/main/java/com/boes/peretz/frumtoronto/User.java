@@ -1,11 +1,10 @@
 package com.boes.peretz.frumtoronto;
 
 /**
- * Created by alanrabinowitz on 2017-12-20.
+ * Created by alanrabinowitz on 2018-01-02.
  */
 
 public class User {
-
     private String username;
     private String phoneNumber;
     private String address;

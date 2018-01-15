@@ -1,10 +1,8 @@
 package com.boes.peretz.frumtoronto;
 
 import android.content.Context;
-import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -39,11 +37,10 @@ public class DaveningScheduleActivity extends AppCompatActivity {
 
         webView=(WebView)findViewById(R.id.davening_schedule_web_view);
         webView.setWebViewClient(new WebViewClient());
-        Toast.makeText(getApplicationContext(),getString(R.string.web_view_warning_message),Toast.LENGTH_LONG).show();
         if (getSupportActionBar()!=null){
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
-        if (WebServicesUtils.isInternetServiceAvailable(getApplicationContext())) {
+        if (isInternetServiceAvailable()) {
             ParseDaveningScheduleWebPage parseDaveningScheduleWebPage = new ParseDaveningScheduleWebPage();
             Toast.makeText(getApplicationContext(), R.string.loading_message,Toast.LENGTH_LONG).show();
             parseDaveningScheduleWebPage.execute();
@@ -84,6 +81,15 @@ public class DaveningScheduleActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),R.string.query_error_message,Toast.LENGTH_LONG).show();
             }
         }
+    }
+
+    public boolean isInternetServiceAvailable(){
+        ConnectivityManager connectivityManager=(ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo=connectivityManager.getActiveNetworkInfo();
+        if (connectivityManager.getActiveNetworkInfo()==null){
+            return false;
+        }
+        return networkInfo.isConnected()||networkInfo.isConnectedOrConnecting();
     }
 
 }

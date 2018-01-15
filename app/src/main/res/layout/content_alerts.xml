@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<RelativeLayout
     android:id="@+id/content_alerts"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -15,13 +15,9 @@
     tools:context="com.boes.peretz.frumtoronto.AlertsActivity"
     tools:showIn="@layout/activity_alerts">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
     <Button
         android:id="@+id/button30"
-        android:text="@string/bulletins_and_alerts_button_text"
+        android:text="Bulletins and alerts"
         android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,7 +31,7 @@
 
     <Button
         android:id="@+id/button31"
-        android:text="@string/kosher_alerts_button_text"
+        android:text="Kosher alerts"
         android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,7 +43,7 @@
 
     <Button
         android:id="@+id/button32"
-        android:text="@string/shiva_notifications_button_text"
+        android:text="Shiva notifications"
         android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -56,5 +52,4 @@
         android:layout_alignEnd="@+id/button31"
         android:layout_marginTop="18dp"
         android:onClick="showShivaNotifications"/>
-    </RelativeLayout>
-</ScrollView>
+</RelativeLayout>

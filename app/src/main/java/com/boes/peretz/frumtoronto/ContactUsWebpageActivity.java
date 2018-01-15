@@ -37,11 +37,10 @@ public class ContactUsWebpageActivity extends AppCompatActivity {
 
         webView=(WebView)findViewById(R.id.contact_us_web_view);
         webView.setWebViewClient(new WebViewClient());
-        Toast.makeText(getApplicationContext(),R.string.web_view_warning_message,Toast.LENGTH_LONG).show();
         if (getSupportActionBar()!=null){
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
-        if (WebServicesUtils.isInternetServiceAvailable(getApplicationContext())) {
+        if (isInternetServiceAvailable()) {
             ParseContactUsWebPage parseContactUsWebPage = new ParseContactUsWebPage();
             Toast.makeText(getApplicationContext(), R.string.loading_message,Toast.LENGTH_LONG).show();
             parseContactUsWebPage.execute();
@@ -82,6 +81,15 @@ public class ContactUsWebpageActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),R.string.query_error_message,Toast.LENGTH_LONG).show();
             }
         }
+    }
+
+    public boolean isInternetServiceAvailable(){
+        ConnectivityManager connectivityManager=(ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo=connectivityManager.getActiveNetworkInfo();
+        if (connectivityManager.getActiveNetworkInfo()==null){
+            return false;
+        }
+        return networkInfo.isConnected()||networkInfo.isConnectedOrConnecting();
     }
 
 }

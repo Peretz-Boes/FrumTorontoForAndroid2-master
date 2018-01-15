@@ -25,7 +25,7 @@ import java.net.SocketTimeoutException;
 import java.net.URL;
 
 /**
- * Created by alanrabinowitz on 2017-12-20.
+ * Created by alanrabinowitz on 2018-01-02.
  */
 
 public class WebServicesUtils {
@@ -135,7 +135,7 @@ public class WebServicesUtils {
     }
 
     private static void addBasicAuthorization(HttpURLConnection httpURLConnection){
-        final String basicAuthorization="Basic "+Base64.encodeToString((Constants.APP_KEY+":"+Constants.APP_SECRET).getBytes(),Base64.NO_WRAP);
+        final String basicAuthorization="Basic "+ Base64.encodeToString((Constants.APP_KEY+":"+Constants.APP_SECRET).getBytes(),Base64.NO_WRAP);
         httpURLConnection.setRequestProperty(Constants.AUTHORIZATION,basicAuthorization);
     }
 
@@ -147,5 +147,4 @@ public class WebServicesUtils {
         }
         return networkInfo.isConnected()||networkInfo.isConnectedOrConnecting();
     }
-
 }

@@ -34,42 +34,42 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="36dp"/>
 
-    <EditText
-        android:id="@+id/username_data_field"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="62dp"
-        android:ems="10"
-        android:inputType="textPersonName" />
+            <EditText
+                android:id="@+id/username_data_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="62dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/password_data_field"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="21dp"
-        android:ems="10"
-        android:inputType="textPassword" />
+            <EditText
+                android:id="@+id/password_data_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="21dp"
+                android:ems="10"
+                android:inputType="textPassword" />
 
-    <EditText
-        android:id="@+id/phone_number_data_field"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="phone" />
+            <EditText
+                android:id="@+id/phone_number_data_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone" />
 
             <EditText
                 android:id="@+id/address_data_field"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:ems="10"/>
+                android:ems="10" />
 
-        <Button
-            android:id="@+id/update_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/update_button_text"
-            android:textAllCaps="false"
-            android:onClick="clickUpdateButton"/>
+            <Button
+                android:id="@+id/update_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update_button_text"
+                android:textAllCaps="false"
+                android:onClick="clickUpdateButton"/>
 
             <Button
                 android:id="@+id/delete_button"

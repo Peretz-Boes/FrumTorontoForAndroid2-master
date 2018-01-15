@@ -6,7 +6,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/menu_background_colour"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -30,7 +29,7 @@
         android:textAllCaps="false"
         android:layout_width="105dp"
         android:layout_height="wrap_content"
-        android:onClick="showHomeAndGardenWebpage"/>
+        android:onClick="showHomeAndGardenActivity"/>
 
     <Button
         android:id="@+id/button15"
@@ -38,7 +37,7 @@
         android:textAllCaps="false"
         android:layout_width="105dp"
         android:layout_height="wrap_content"
-        android:onClick="showAdvancedSearchWebpage"/>
+        android:onClick="showAdvancedSearchActivity"/>
 
     <Button
         android:id="@+id/button17"
@@ -47,7 +46,7 @@
         android:layout_width="90dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
-        android:onClick="showBusinessServicesWebpage"/>
+        android:onClick="showBusinessServicesActivity"/>
 
         </LinearLayout>
 
@@ -65,7 +64,7 @@
         android:layout_width="105dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
-        android:onClick="showFinancialServicesWebpage"/>
+        android:onClick="showFinancialServicesActivity"/>
 
     <Button
         android:id="@+id/button24"
@@ -73,7 +72,7 @@
         android:textAllCaps="false"
         android:layout_width="105dp"
         android:layout_height="wrap_content"
-        android:onClick="showSimchasWebpage"/>
+        android:onClick="showSimchasActivity"/>
 
     <Button
         android:id="@+id/button25"
@@ -81,7 +80,7 @@
         android:textAllCaps="false"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
-        android:onClick="showSportAndLeisureWebpage"/>
+        android:onClick="showSportAndLeisureActivity"/>
 
         </LinearLayout>
 
@@ -96,7 +95,7 @@
         android:textAllCaps="false"
         android:layout_width="105dp"
         android:layout_height="wrap_content"
-        android:onClick="showTransportAndAutoWebpage"/>
+        android:onClick="showTransportAndAutoActivity"/>
 
     <Button
         android:id="@+id/button23"
@@ -104,7 +103,7 @@
         android:textAllCaps="false"
         android:layout_width="105dp"
         android:layout_height="wrap_content"
-        android:onClick="showShoppingWebpage"/>
+        android:onClick="showShoppingActivity"/>
 
     <Button
         android:id="@+id/button8"
@@ -113,7 +112,7 @@
         android:layout_width="90dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
-        android:onClick="showBusinessDirectoryWebpage"/>
+        android:onClick="showBusinessDirectory"/>
 
         </LinearLayout>
 
@@ -129,7 +128,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="21dp"
-        android:onClick="showClothingAndAccessoriesWebpage"/>
+        android:onClick="showClothingAndAccessoriesActivity"/>
 
     <Button
         android:id="@+id/button20"
@@ -137,7 +136,7 @@
         android:textAllCaps="false"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:onClick="showPropertyAndAccommodationsWebpage"/>
+        android:onClick="showPropertyAndAccommodationsActivity"/>
 
     <Button
         android:id="@+id/button10"
@@ -145,7 +144,7 @@
         android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="showGovernmentAndInstitutionsWebpage"/>
+        android:onClick="showGovernmentAndInstitutionsActivity"/>
 
         </LinearLayout>
 
@@ -168,7 +167,7 @@
         android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="showDirectoryRatesWebpage"/>
+        android:onClick="showDirectoryRatesActivity"/>
 
     <Button
         android:id="@+id/button12"
@@ -176,7 +175,7 @@
         android:textAllCaps="false"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
-        android:onClick="showHeathAndBeautyWebpage"/>
+        android:onClick="showHeathAndBeautyActivity"/>
 
 </LinearLayout>
 
@@ -191,7 +190,7 @@
                 android:textAllCaps="false"
                 android:layout_width="105dp"
                 android:layout_height="wrap_content"
-                android:onClick="showJewishCommunityServicesWebpage"/>
+                android:onClick="showJewishCommunityServicesActivity"/>
 
             <Button
                 android:id="@+id/button18"
@@ -199,7 +198,7 @@
                 android:textAllCaps="false"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="showKosherFoodsWebpage"/>
+                android:onClick="showKosherFoodsActivity"/>
 
             <Button
                 android:id="@+id/button22"
@@ -207,7 +206,7 @@
                 android:textAllCaps="false"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="showServicesWebpage"/>
+                android:onClick="showServicesActivity"/>
 
         </LinearLayout>
 

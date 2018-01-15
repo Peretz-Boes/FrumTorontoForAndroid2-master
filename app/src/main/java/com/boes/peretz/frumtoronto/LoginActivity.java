@@ -2,7 +2,6 @@ package com.boes.peretz.frumtoronto;
 
 import android.content.ContentValues;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,17 +9,14 @@ import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
-import android.util.Patterns;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
 import org.json.JSONObject;
 
-import java.io.InputStream;
-import java.util.regex.Pattern;
-
 public class LoginActivity extends AppCompatActivity {
+
 
     private UserLoginRegisterTask userLoginRegisterTask=null;
     EditText name;

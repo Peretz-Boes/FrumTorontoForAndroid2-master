@@ -37,11 +37,10 @@ public class FrequentlyAskedQuestionsActivity extends AppCompatActivity {
 
         webView=(WebView)findViewById(R.id.frequently_asked_questions_web_view);
         webView.setWebViewClient(new WebViewClient());
-        Toast.makeText(getApplicationContext(),getString(R.string.web_view_warning_message),Toast.LENGTH_LONG).show();
         if (getSupportActionBar()!=null){
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
-        if (WebServicesUtils.isInternetServiceAvailable(getApplicationContext())) {
+        if (isInternetServiceAvailable()) {
             ParseFrequentlyAskedQuestionsWebPage parseFrequentlyAskedQuestionsWebPage = new ParseFrequentlyAskedQuestionsWebPage();
             Toast.makeText(getApplicationContext(), R.string.loading_message,Toast.LENGTH_LONG).show();
             parseFrequentlyAskedQuestionsWebPage.execute();
@@ -82,6 +81,15 @@ public class FrequentlyAskedQuestionsActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),R.string.query_error_message,Toast.LENGTH_LONG).show();
             }
         }
+    }
+
+    public boolean isInternetServiceAvailable(){
+        ConnectivityManager connectivityManager=(ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo=connectivityManager.getActiveNetworkInfo();
+        if (connectivityManager.getActiveNetworkInfo()==null){
+            return false;
+        }
+        return networkInfo.isConnected()||networkInfo.isConnectedOrConnecting();
     }
 
 }

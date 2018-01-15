@@ -15,8 +15,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import java.net.MalformedURLException;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -95,6 +93,20 @@ public class MainActivity extends AppCompatActivity {
 
     public void showPersonsDirectoryLoginPage(View view){
         Intent intent=new Intent(MainActivity.this,LoginActivity.class);
+        startActivity(intent);
+    }
+
+    public void showMessageBoard(View view){
+        Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("http://www.frumtoronto.com/Blogger.asp?BlogCategoryID=44"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
+    }
+
+    public void showPersonsDirectory(View view){
+        Intent intent=new Intent(MainActivity.this,PersonsDirectoryActivity.class);
         startActivity(intent);
     }
 

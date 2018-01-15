@@ -91,14 +91,13 @@
 
     <Button
         android:id="@+id/button7"
-        android:text="@string/show_toronto_weather_button_text"
-        android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/button9"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="54dp"
-        android:onClick="showTorontoWeather"/>
+        android:onClick="showTorontoWeather"
+        android:text="@string/show_toronto_weather_button_text"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/button9"
@@ -112,35 +111,55 @@
 
     <Button
         android:id="@+id/button33"
-        android:text="@string/ask_the_rabbi_button_text"
-        android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button7"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="11dp"
-        android:onClick="showAskTheRabbiWebpage"/>
+        android:onClick="showAskTheRabbiWebpage"
+        android:text="@string/ask_the_rabbi_button_text"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/button40"
-        android:text="@string/become_a_member_button_text"
-        android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button33"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="17dp"
-        android:onClick="showBecomeAMemberWebpage"/>
+        android:layout_alignEnd="@+id/button33"
+        android:layout_alignRight="@+id/button33"
+        android:onClick="showBecomeAMemberWebpage"
+        android:text="@string/become_a_member_button_text"
+        android:textAllCaps="false" />
 
     <Button
-        android:id="@+id/button50"
+        android:id="@+id/button42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button40"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="11dp"
+        android:onClick="showPersonsDirectoryLoginPage"
         android:text="@string/access_the_persons_directory_button_text"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button50"
+        android:text="@string/show_message_board_button_text"
         android:textAllCaps="false"
-        android:onClick="showPersonsDirectoryLoginPage"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button42"
+        android:layout_centerHorizontal="true"
+        android:onClick="showMessageBoard"/>
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button40"
+        android:layout_alignBottom="@+id/button40"
+        android:layout_toEndOf="@+id/button50"
+        android:layout_toRightOf="@+id/button50"
+        android:onClick="showPersonsDirectory"
+        android:text="@string/show_persons_directory_button_text"
+        android:textAllCaps="false" />
 
 </RelativeLayout>

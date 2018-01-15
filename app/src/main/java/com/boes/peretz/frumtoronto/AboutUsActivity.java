@@ -41,7 +41,7 @@ public class AboutUsActivity extends AppCompatActivity {
         }
 
         webView=(WebView)findViewById(R.id.about_us_webview);
-        Toast.makeText(getApplicationContext(),getString(R.string.web_view_warning_message),Toast.LENGTH_LONG).show();
+        webView.setWebViewClient(new WebViewClient());
         if (isInternetServiceAvailable()) {
             ParseAboutUsWebPage parseAboutUsWebPage = new ParseAboutUsWebPage();
             Toast.makeText(getApplicationContext(), R.string.loading_message,Toast.LENGTH_LONG).show();

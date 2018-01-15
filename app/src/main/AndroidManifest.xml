@@ -7,9 +7,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/jerusalem_great_synagogue"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -38,6 +37,11 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".ClassifiedActivity"
+            android:label="@string/title_activity_classified"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".ShulsAndTefillosActivity"
             android:label="@string/title_activity_shuls_and_tefillos"
             android:parentActivityName=".MainActivity"
@@ -47,6 +51,18 @@
             android:label="@string/title_activity_contact_us"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BuisnessDirectoryActivity"
+            android:label="@string/title_activity_buisness_directory"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
         <activity
             android:name=".CalendarWebPageActivity"
             android:label="@string/title_activity_calendar_web_page"
@@ -60,8 +76,296 @@
                 android:value="true" />
         </activity>
         <activity
+            android:name=".DirectoryRatesActivity"
+            android:label="@string/title_activity_directory_rates"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".AdvancedSearchActivity"
+            android:label="@string/title_activity_advanced_search"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".BusinessServicesActivity"
+            android:label="@string/title_activity_business_services"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".ClothingAndAccessoriesActivity"
+            android:label="@string/title_activity_clothing_and_accessories"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".FinancialServicesActivity"
+            android:label="@string/title_activity_financial_services"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".GovernmentAndInstitutionsActivity"
+            android:label="@string/title_activity_government_and_institutions"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".HealthAndBeautyActivity"
+            android:label="@string/title_activity_health_and_beauty"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".HomeAndGardenActivity"
+            android:label="@string/title_activity_home_and_garden"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".JewishCommunityServicesActivity"
+            android:label="@string/title_activity_jewish_community_services"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".KosherFoodsActivity"
+            android:label="@string/title_activity_kosher_foods"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".PropertyAndAccomodationsActivity"
+            android:label="@string/title_activity_property_and_accomodations"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".ServicesActivity"
+            android:label="@string/title_activity_services"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".ShoppingActivity"
+            android:label="@string/title_activity_shopping"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".SimchasActivity"
+            android:label="@string/title_activity_simchas"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".SportAndLeisureActivity"
+            android:label="@string/title_activity_sport_and_leisure"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".TransportAndAutoActivity"
+            android:label="@string/title_activity_transport_and_auto"
+            android:parentActivityName=".DirectoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".WeeklyShiurimActivity"
+            android:label="@string/title_activity_weekly_shiurim"
+            android:parentActivityName=".CalendarActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".ZmanimActivity"
+            android:label="@string/title_activity_zmanim"
+            android:parentActivityName=".CalendarActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".BulletinsAndAlertsActivity"
+            android:label="@string/title_activity_bulletins_and_alerts"
+            android:parentActivityName=".AlertsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".KosherAlertsActivity"
+            android:label="@string/title_activity_kosher_alerts"
+            android:parentActivityName=".AlertsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".ShivaNotificationsActivity"
+            android:label="@string/title_activity_shiva_notifications"
+            android:parentActivityName=".AlertsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".ClassifiedWebPageActivity"
+            android:label="@string/title_activity_classified_web_page"
+            android:parentActivityName=".ClassifiedActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".WeeklySpecialsActivity"
+            android:label="@string/title_activity_weekly_specials"
+            android:parentActivityName=".ClassifiedActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
             android:name=".DaveningScheduleActivity"
             android:label="@string/title_activity_davening_schedule"
+            android:parentActivityName=".ShulsAndTefillosActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".ShulListingsActivity"
+            android:label="@string/title_activity_shul_listings"
             android:parentActivityName=".ShulsAndTefillosActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -84,8 +388,56 @@
                 android:value="true" />
         </activity>
         <activity
+            android:name=".CommunityNewslettersActivity"
+            android:label="@string/title_activity_community_newsletters"
+            android:parentActivityName=".ShulsAndTefillosActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".WeeklyPublicationsActivity"
+            android:label="@string/title_activity_weekly_publications"
+            android:parentActivityName=".ShulsAndTefillosActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".TehillimListActivity"
+            android:label="@string/title_activity_tehillim_list"
+            android:parentActivityName=".ShulsAndTefillosActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
             android:name=".ContactUsWebpageActivity"
             android:label="@string/title_activity_contact_us_webpage"
+            android:parentActivityName=".ContactUsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.webkit.WebView.MetricsOptOut"
+                android:value="true" />
+            <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name=".AdvertisingRatesActivity"
+            android:label="@string/title_activity_advertising_rates"
             android:parentActivityName=".ContactUsActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -120,22 +472,24 @@
                 android:value="true" />
         </activity>
         <activity
-            android:name=".ClassifiedActivity"
-            android:label="@string/title_activity_classified"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".RegisterInThePersonDirectoryActivity"
             android:label="@string/title_activity_register_in_the_person_directory"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".PersonDataActivity"
             android:label="@string/title_activity_person_data"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PersonsDirectoryActivity"
+            android:label="@string/title_activity_persons_directory"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

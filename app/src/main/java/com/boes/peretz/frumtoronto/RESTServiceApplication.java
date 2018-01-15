@@ -3,10 +3,10 @@ package com.boes.peretz.frumtoronto;
 import android.app.Application;
 
 /**
- * Created by alanrabinowitz on 2017-12-20.
+ * Created by alanrabinowitz on 2018-01-02.
  */
 
-public class RESTServiceApplication extends Application{
+public class RESTServiceApplication extends Application {
     private static RESTServiceApplication instance;
     private User user;
     private String accessToken;

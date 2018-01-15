@@ -110,4 +110,8 @@
     <string name="delete_button_text">Delete</string>
     <string name="log_out_button_text">Log out</string>
     <string name="reset_button_text">Reset</string>
+    <string name="phone_number_edit_text_hint">Enter your phone number</string>
+    <string name="show_message_board_button_text">Show message board</string>
+    <string name="title_activity_persons_directory">PersonsDirectoryActivity</string>
+    <string name="show_persons_directory_button_text">Show persons directory</string>
 </resources>
