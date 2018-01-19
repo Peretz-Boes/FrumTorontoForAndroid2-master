@@ -42,7 +42,7 @@ public class WeeklyShiurimActivity extends AppCompatActivity {
         }
         if (isInternetServiceAvailable()) {
             ParseWeeklyShiurimWebPage parseWeeklyShiurimWebPage = new ParseWeeklyShiurimWebPage();
-            Toast.makeText(getApplicationContext(), R.string.loading_message,Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), R.string.web_view_warning_message+" "+R.string.loading_message,Toast.LENGTH_LONG).show();
             parseWeeklyShiurimWebPage.execute();
         }else {
             Toast.makeText(getApplicationContext(), R.string.internet_connection_error_message, Toast.LENGTH_LONG).show();

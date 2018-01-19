@@ -37,8 +37,12 @@ public class DirectoryActivity extends AppCompatActivity {
     }
 
     public void showBusinessDirectory(View view){
-        Intent intent =new Intent(DirectoryActivity.this,BuisnessDirectoryActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showRegisterYourBusinessWebpage(View view){
@@ -51,83 +55,147 @@ public class DirectoryActivity extends AppCompatActivity {
     }
 
     public void showDirectoryRatesActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,DirectoryRatesActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectoryRates.asp"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showAdvancedSearchActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,AdvancedSearchActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/DirectoryListing.asp"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showBusinessServicesActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,BusinessServicesActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp?Section=8"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showClothingAndAccessoriesActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,ClothingAndAccessoriesActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp?Section=11"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showFinancialServicesActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,FinancialServicesActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp?Section=4"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showGovernmentAndInstitutionsActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,GovernmentAndInstitutionsActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp?Section=5"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showHeathAndBeautyActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,HealthAndBeautyActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp?Section=16"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showHomeAndGardenActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,HomeAndGardenActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp?Section=13"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showJewishCommunityServicesActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,JewishCommunityServicesActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp?Section=3"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showKosherFoodsActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,KosherFoodsActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp?Section=15"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showPropertyAndAccommodationsActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,PropertyAndAccomodationsActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp?Section=6"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showServicesActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,ServicesActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp?Section=7"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showShoppingActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,ShoppingActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp?Section=12"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showSimchasActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,SimchasActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp?Section=9"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showSportAndLeisureActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,SportAndLeisureActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp?Section=10"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
     public void showTransportAndAutoActivity(View view){
-        Intent intent=new Intent(DirectoryActivity.this,TransportAndAutoActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/BusinessDirectory.asp?Section=14"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
 }

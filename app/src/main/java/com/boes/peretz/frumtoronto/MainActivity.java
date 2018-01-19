@@ -106,8 +106,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showPersonsDirectory(View view){
-        Intent intent=new Intent(MainActivity.this,PersonsDirectoryActivity.class);
-        startActivity(intent);
+        Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("http://mobileapps.x10host.com/database.php"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
     }
 
 }

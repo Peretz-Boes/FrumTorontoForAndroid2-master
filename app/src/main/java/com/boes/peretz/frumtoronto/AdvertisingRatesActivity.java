@@ -42,7 +42,7 @@ public class AdvertisingRatesActivity extends AppCompatActivity {
         }
         if (isInternetServiceAvailable()) {
             ParseAdvertisingRatesWebPage parseAdvertisingRatesWebPage = new ParseAdvertisingRatesWebPage();
-            Toast.makeText(getApplicationContext(), R.string.loading_message,Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), R.string.web_view_warning_message+" "+R.string.loading_message,Toast.LENGTH_LONG).show();
             parseAdvertisingRatesWebPage.execute();
         }
     }

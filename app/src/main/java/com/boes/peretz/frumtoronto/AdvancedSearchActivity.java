@@ -37,6 +37,7 @@ public class AdvancedSearchActivity extends AppCompatActivity {
 
         webView=(WebView)findViewById(R.id.advanced_search_web_view);
         webView.setWebViewClient(new WebViewClient());
+        Toast.makeText(getApplicationContext(),R.string.web_view_warning_message,Toast.LENGTH_LONG).show();
         if (getSupportActionBar()!=null){
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
