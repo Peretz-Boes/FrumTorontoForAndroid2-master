@@ -85,7 +85,7 @@
     <string name="internet_connection_error_message">Internet service is unavailable. Please check your Internet connection and try again.</string>
     <string name="query_error_message">Error getting data from the website</string>
     <string name="no_web_browser_error_message">You need to install a web browser for this feature to work</string>
-    <string name="loading_message">Loading</string>
+    <string name="loading_message">Some links may not show in the app. Loading</string>
     <string name="become_a_member_button_text">Become a member</string>
     <string name="opening_link_error_message">Error opening this link</string>
     <string name="web_view_warning_message">Some links may not show in the app</string>
