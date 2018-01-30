@@ -1,9 +1,6 @@
 package com.boes.peretz.frumtoronto;
 
-import android.content.Context;
 import android.content.Intent;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -74,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showAskTheRabbiWebpage(View view){
-        Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("http://www.frumtoronto.com/Blogger.asp?BlogCategoryID=98"));
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.frumtoronto.com/Blogger.asp?BlogCategoryID=98"));
         if (intent.resolveActivity(getPackageManager())!=null){
             startActivity(intent);
         }else {

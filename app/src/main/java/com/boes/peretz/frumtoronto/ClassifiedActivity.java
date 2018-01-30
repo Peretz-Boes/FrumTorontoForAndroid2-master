@@ -3,8 +3,6 @@ package com.boes.peretz.frumtoronto;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -41,7 +39,7 @@ public class ClassifiedActivity extends AppCompatActivity {
         if (intent.resolveActivity(getPackageManager())!=null){
             startActivity(intent);
         }else {
-            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), R.string.no_web_browser_error_message, Toast.LENGTH_LONG).show();
         }
     }
 
@@ -50,8 +48,9 @@ public class ClassifiedActivity extends AppCompatActivity {
         if (intent.resolveActivity(getPackageManager())!=null){
             startActivity(intent);
         }else {
-            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), R.string.no_web_browser_error_message, Toast.LENGTH_LONG).show();
         }
     }
 
 }
+

@@ -64,3 +64,4 @@ public class AlertsActivity extends AppCompatActivity {
     }
 
 }
+

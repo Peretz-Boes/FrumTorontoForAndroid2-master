@@ -62,6 +62,7 @@ public class DaveningScheduleActivity extends AppCompatActivity {
     public class ParseDaveningScheduleWebPage extends AsyncTask<String,Void,String> {
         @Override
         protected String doInBackground(String... strings) {
+
             Document document;
             try {
                 document= Jsoup.connect("http://www.frumtoronto.com/DaveningSchedule.asp").get();
@@ -93,3 +94,4 @@ public class DaveningScheduleActivity extends AppCompatActivity {
     }
 
 }
+

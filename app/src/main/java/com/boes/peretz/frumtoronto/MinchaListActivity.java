@@ -79,5 +79,4 @@ public class MinchaListActivity extends AppCompatActivity {
         }
         return networkInfo.isConnected()||networkInfo.isConnectedOrConnecting();
     }
-
 }

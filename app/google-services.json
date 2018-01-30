@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "608631877828",
+    "firebase_url": "https://frumtoronto-a2f1d.firebaseio.com",
+    "project_id": "frumtoronto-a2f1d",
+    "storage_bucket": "frumtoronto-a2f1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608631877828:android:8d0cea0814e600c6",
+        "android_client_info": {
+          "package_name": "com.boes.peretz.frumtoronto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608631877828-fa5rpjr34nj1jtiun5unasugqju8h439.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAjyx2mlZ_-ISOttJaAm8p7XV-Q6A851I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
+
+
+

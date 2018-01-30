@@ -30,12 +30,12 @@
 
             <EditText
                 android:id="@+id/name_edit_text"
-                android:text="@string/name_edit_text_hint"
+                android:text="@string/email_address_edit_text_hint"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="52dp"
                 android:ems="10"
-                android:inputType="textPersonName"/>
+                android:inputType="textEmailAddress"/>
 
             <TextView
                 android:id="@+id/textView2"
@@ -59,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="77dp"
-                android:onClick="attemptRegistrationOrLogin"/>
+                android:onClick="attemptLogin"/>
 
             <Button
                 android:id="@+id/register_button"
@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/register_button_text"
                 android:textAllCaps="false"
-                android:onClick="attemptRegistrationOrLogin"/>
+                android:onClick="attemptRegistration"/>
 
         </LinearLayout>
     </ScrollView>
