@@ -2,14 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.boes.peretz.frumtoronto">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/jerusalem_great_synagogue"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -33,10 +32,10 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-        android:name=".DirectoryActivity"
-        android:label="@string/title_activity_directory"
-        android:parentActivityName=".MainActivity"
-        android:theme="@style/AppTheme.NoActionBar" />
+            android:name=".DirectoryActivity"
+            android:label="@string/title_activity_directory"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ClassifiedActivity"
             android:label="@string/title_activity_classified"
@@ -91,10 +90,11 @@
             android:name=".PersonDataActivity"
             android:label="@string/title_activity_person_data"
             android:parentActivityName=".LoginActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PersonsDirectorySearchActivity"
+            android:label="@string/title_activity_persons_directory_search"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
-
-

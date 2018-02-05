@@ -111,4 +111,19 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void showCalendarEventForm(View view){
+        Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("http://www.frumtoronto.com/diary_EditE.asp?mode=Add"));
+        if (intent.resolveActivity(getPackageManager())!=null){
+            Toast.makeText(getApplicationContext(), R.string.calendar_login_instructions,Toast.LENGTH_LONG).show();
+            startActivity(intent);
+        }else {
+            Toast.makeText(getApplicationContext(),R.string.no_web_browser_error_message,Toast.LENGTH_LONG).show();
+        }
+    }
+
+    public void showPersonsDirectorySearchActivity(View view){
+        Intent intent=new Intent(MainActivity.this,PersonsDirectorySearchActivity.class);
+        startActivity(intent);
+    }
+
 }
